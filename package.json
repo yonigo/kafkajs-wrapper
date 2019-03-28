@@ -1,0 +1,28 @@
+{
+  "name": "kafkajs-wrapper",
+  "version": "1.0.0",
+  "description": "A Kafkajs wrapper for better handling parallel manual commits and back-pressure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonigo/kafkajs-wrapper.git"
+  },
+  "keywords": [
+    "Kafka",
+    "node.js",
+    "kafkajs"
+  ],
+  "author": "Yoni Goyhman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonigo/kafkajs-wrapper/issues"
+  },
+  "homepage": "https://github.com/yonigo/kafkajs-wrapper#readme",
+  "dependencies": {
+    "async": "^3.0.1-0",
+    "kafkajs": "^1.5.1"
+  }
+}
